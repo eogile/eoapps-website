@@ -62,7 +62,7 @@ theme = "agency"
 
     # postpended links
     [[menu.postpend]]
-      url = "https://int.eopal.eoapps.io"
+      url = "https://eopal.eoapps.io"
       name = "Sign in"
       weight = 10
 
