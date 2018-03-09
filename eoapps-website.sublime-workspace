@@ -1,0 +1,443 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "config.toml",
+			"settings":
+			{
+				"buffer_size": 10214,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<li class=\"option\" data-country-code=\"AU\"><i class=\"flag flag-AU\"></i><span>Australia</span></li>\n<li class=\"option\" data-country-code=\"AT\"><i class=\"flag flag-AT\"></i><span>Austria</span></li>\n<li class=\"option\" data-country-code=\"BH\"><i class=\"flag flag-BH\"></i><span>Bahrain</span></li>\n<li class=\"option\" data-country-code=\"BE\"><i class=\"flag flag-BE\"></i><span>Belgium</span></li>\n<li class=\"option\" data-country-code=\"BR\"><i class=\"flag flag-BR\"></i><span>Brazil</span></li>\n<li class=\"option\" data-country-code=\"BG\"><i class=\"flag flag-BG\"></i><span>Bulgaria</span></li>\n<li class=\"option\" data-country-code=\"CA\"><i class=\"flag flag-CA\"></i><span>Canada</span></li>\n<li class=\"option\" data-country-code=\"CO\"><i class=\"flag flag-CO\"></i><span>Colombia</span></li>\n<li class=\"option\" data-country-code=\"HR\"><i class=\"flag flag-HR\"></i><span>Croatia</span></li>\n<li class=\"option\" data-country-code=\"CY\"><i class=\"flag flag-CY\"></i><span>Cyprus</span></li>\n<li class=\"option\" data-country-code=\"CZ\"><i class=\"flag flag-CZ\"></i><span>Czech Republic</span></li>\n<li class=\"option\" data-country-code=\"DK\"><i class=\"flag flag-DK\"></i><span>Denmark</span></li>\n<li class=\"option\" data-country-code=\"DO\"><i class=\"flag flag-DO\"></i><span>Dominican Republic</span></li>\n<li class=\"option\" data-country-code=\"SV\"><i class=\"flag flag-SV\"></i><span>El Salvador</span></li>\n<li class=\"option\" data-country-code=\"EE\"><i class=\"flag flag-EE\"></i><span>Estonia</span></li>\n<li class=\"option\" data-country-code=\"FI\"><i class=\"flag flag-FI\"></i><span>Finland</span></li>\n<li class=\"option\" data-country-code=\"FR\"><i class=\"flag flag-FR\"></i><span>France</span></li>\n<li class=\"option\" data-country-code=\"DE\"><i class=\"flag flag-DE\"></i><span>Germany</span></li>\n<li class=\"option\" data-country-code=\"GR\"><i class=\"flag flag-GR\"></i><span>Greece</span></li>\n<li class=\"option\" data-country-code=\"HK\"><i class=\"flag flag-HK\"></i><span>Hong Kong</span></li>\n<li class=\"option\" data-country-code=\"HU\"><i class=\"flag flag-HU\"></i><span>Hungary</span></li>\n<li class=\"option\" data-country-code=\"IS\"><i class=\"flag flag-IS\"></i><span>Iceland</span></li>\n<li class=\"option\" data-country-code=\"ID\"><i class=\"flag flag-ID\"></i><span>Indonesia</span></li>\n<li class=\"option\" data-country-code=\"IE\"><i class=\"flag flag-IE\"></i><span>Ireland</span></li>\n<li class=\"option\" data-country-code=\"IL\"><i class=\"flag flag-IL\"></i><span>Israel</span></li>\n<li class=\"option\" data-country-code=\"IT\"><i class=\"flag flag-IT\"></i><span>Italy</span></li>\n<li class=\"option\" data-country-code=\"JP\"><i class=\"flag flag-JP\"></i><span>Japan</span></li>\n<li class=\"option\" data-country-code=\"KE\"><i class=\"flag flag-KE\"></i><span>Kenya</span></li>\n<li class=\"option\" data-country-code=\"KR\"><i class=\"flag flag-KR\"></i><span>Korea Republic of</span></li>\n<li class=\"option\" data-country-code=\"LV\"><i class=\"flag flag-LV\"></i><span>Latvia</span></li>\n<li class=\"option\" data-country-code=\"LT\"><i class=\"flag flag-LT\"></i><span>Lithuania</span></li>\n<li class=\"option\" data-country-code=\"LU\"><i class=\"flag flag-LU\"></i><span>Luxembourg</span></li>\n<li class=\"option\" data-country-code=\"MY\"><i class=\"flag flag-MY\"></i><span>Malaysia</span></li>\n<li class=\"option\" data-country-code=\"MT\"><i class=\"flag flag-MT\"></i><span>Malta</span></li>\n<li class=\"option\" data-country-code=\"MX\"><i class=\"flag flag-MX\"></i><span>Mexico</span></li>\n<li class=\"option\" data-country-code=\"NZ\"><i class=\"flag flag-NZ\"></i><span>New Zealand</span></li>\n<li class=\"option\" data-country-code=\"NG\"><i class=\"flag flag-NG\"></i><span>Nigeria</span></li>\n<li class=\"option\" data-country-code=\"NO\"><i class=\"flag flag-NO\"></i><span>Norway</span></li>\n<li class=\"option\" data-country-code=\"PE\"><i class=\"flag flag-PE\"></i><span>Peru</span></li>\n<li class=\"option\" data-country-code=\"PH\"><i class=\"flag flag-PH\"></i><span>Philippines</span></li>\n<li class=\"option\" data-country-code=\"PL\"><i class=\"flag flag-PL\"></i><span>Poland</span></li>\n<li class=\"option\" data-country-code=\"PT\"><i class=\"flag flag-PT\"></i><span>Portugal</span></li>\n<li class=\"option\" data-country-code=\"PR\"><i class=\"flag flag-PR\"></i><span>Puerto Rico</span></li>\n<li class=\"option\" data-country-code=\"RO\"><i class=\"flag flag-RO\"></i><span>Romania</span></li>\n<li class=\"option\" data-country-code=\"SK\"><i class=\"flag flag-SK\"></i><span>Slovakia</span></li>\n<li class=\"option\" data-country-code=\"SI\"><i class=\"flag flag-SI\"></i><span>Slovenia</span></li>\n<li class=\"option\" data-country-code=\"ZA\"><i class=\"flag flag-ZA\"></i><span>South Africa</span></li>\n<li class=\"option\" data-country-code=\"ES\"><i class=\"flag flag-ES\"></i><span>Spain</span></li>\n<li class=\"option\" data-country-code=\"SE\"><i class=\"flag flag-SE\"></i><span>Sweden</span></li>\n<li class=\"option\" data-country-code=\"CH\"><i class=\"flag flag-CH\"></i><span>Switzerland</span></li>\n<li class=\"option\" data-country-code=\"TH\"><i class=\"flag flag-TH\"></i><span>Thailand</span></li>\n<li class=\"option\" data-country-code=\"NL\"><i class=\"flag flag-NL\"></i><span>The Netherlands</span></li>\n<li class=\"option\" data-country-code=\"GB\"><i class=\"flag flag-GB\"></i><span>United Kingdom</span></li>\n<li class=\"option\" data-country-code=\"US\"><i class=\"flag flag-US\"></i><span>United States</span></li>\n",
+			"settings":
+			{
+				"buffer_size": 5252,
+				"line_ending": "Unix",
+				"name": "<li class=\"option\" data-country-code=\"AU\"><i class"
+			}
+		},
+		{
+			"file": "/Users/jerome/Development/gatsby-test-site/src/pages/index.js",
+			"settings":
+			{
+				"buffer_size": 284,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/css/strike.css",
+			"settings":
+			{
+				"buffer_size": 385,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "@keyframes strike{"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 179.0,
+		"last_filter": "markdown pre",
+		"selected_items":
+		[
+			[
+				"markdown pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"previe",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"PREview",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"hugo",
+				"Hugofy : Version"
+			],
+			[
+				"hu",
+				"Hugofy : Start Server"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/jerome/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
+		"/Users/jerome/Downloads/R2016 (1)/R201612_2_virgule.CSV",
+		"/Users/jerome/Google Drive/EOGILE/Marketing/SiteWww/src/index.html",
+		"/Users/jerome/Development/eoapps-website/themes/agency/static/favicon.ico",
+		"/Users/jerome/Downloads/test_05012018_2.csv",
+		"/Users/jerome/Development/eoapps-website/themes/agency/exampleSite/config.toml",
+		"/Users/jerome/Development/pmuagree/deploy/docker-stack/README.md",
+		"/Users/jerome/Development/pmuagree/deploy/script/2.0.9/SMAGREM-95-changeELEV.js",
+		"/Users/jerome/Development/eoapps-website/eoapps-website.sublime-project",
+		"/Users/jerome/Development/pmuagree/deploy/README.md",
+		"/Users/jerome/Development/pmuagree/app/com/pmu/agrements/model/Demande.java",
+		"/Users/jerome/Development/pmuagree/app/com/pmu/agrements/dao/DemandeCollection.java",
+		"/Users/jerome/Development/pmuagree/app/com/pmu/agrements/dao/ReferenceCollection.java",
+		"/Users/jerome/Development/pmuagree/public/swagger/swagger.yaml",
+		"/Users/jerome/Development/pmuagree/deploy/script/2.0.9/PMUAGREE-323-remove-agences.js",
+		"/Users/jerome/Development/pmuagree/deploy/script/2.0.9/PMUAGREE-323-migrate-agences.js",
+		"/keybase/team/eogile.agrements/ssh/config",
+		"/Users/jerome/Downloads/exported GTP Trello.json",
+		"/Users/jerome/Development/pmuagree/.gitignore",
+		"/Users/jerome/Development/pmuagree/deploy/docker-stack/agrements-pmu-stack.yml",
+		"/Users/jerome/Development/pmuagree/deploy/script/1.2.6/01-PMUAGREE-292-migrate-agences.js",
+		"/Users/jerome/Development/pmuagree/deploy/script/2.0.8/PMUAGREE-316-combinatoire.js",
+		"/Users/jerome/OneDrive/divers/blockchain/bitshare/bitshare.txt",
+		"/Users/jerome/Development/gocode/src/eos/eos.sublime-project",
+		"/Users/jerome/Downloads/eos_transactions_from_4000000.json",
+		"/Volumes/GoogleDrive/Mon Drive/EOGILE/Securité/ServeurVPN_EOGILE/keys/jlaurens/eogile.ovpn",
+		"/Volumes/GoogleDrive/Mon Drive/EOGILE/Client/PMU/Base agréments PMU/tma 2017/solution technique.svg"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"/Users/jerome/Development/pmuagree"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"</li><li",
+			"\";\"",
+			"(.*)",
+			";",
+			"css",
+			"lever",
+			"ELEV",
+			"TypeA",
+			"ELEV",
+			"bailleur",
+			"Eogile4ever",
+			"'"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"</li>\n<li",
+			"</li>\\n\\r<li",
+			"\",\"",
+			"\"$1\"",
+			"\";\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "config.toml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8645,
+								8645
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TOML/TOML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3586,
+								3586
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<li class=\"option\" data-country-code=\"AU\"><i class",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 107.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/jerome/Development/gatsby-test-site/src/pages/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 284,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								156,
+								156
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "static/css/strike.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 385,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								385,
+								385
+							]
+						],
+						"settings":
+						{
+							"auto_name": "@keyframes strike{",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GoSublime-main-output":
+	{
+		"height": 102.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "eoapps-website.sublime-project",
+	"replace":
+	{
+		"height": 94.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 444.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

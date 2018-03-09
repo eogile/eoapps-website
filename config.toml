@@ -1,0 +1,305 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "eoApps"
+theme = "agency"
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "Your name"
+  description = "Your description"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "eoAppsSigneBlack.ico"
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Navigation
+  [params.navigation]
+    brand = "eoApps"
+    # Optional logo as brand stored in img/
+    logo = "eoAppsfinalwhite.png"
+    keypoints = "Key Points"
+    portfolio = "Apps"
+    about = "About"
+    team = "Team"
+    contact = "Contact"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    [[menu.postpend]]
+      url = "https://int.eopal.eoapps.io"
+      name = "Sign in"
+      weight = 10
+
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = "The best way to exchange data for Goods Transportation!"
+    subtitle = "Decentralized platform"
+    buttonText = "Tell me more"
+
+
+  # KeyPoints section
+  [params.keypoints]
+    enable = true
+    title = "Key Points"
+    subtitle = "Digital in Transportation and logistics simplified"
+
+    [[params.keypoints.row]]
+
+    [[params.keypoints.row.list]]
+      icon = "fa-users"
+      title = "Decentralized"
+      description = "A platform that belongs to its users, not centralized like Uber or Google. Thanks to #blockchain. <br>We have decentralized Applications dedicated to transportation & logistics"
+      url = "#"
+
+    [[params.keypoints.row.list]]
+      icon = "fa-lock"
+      title = "Your data is private"
+      description = "Data privacy is important to us. eoApps platform never has access to YOUR data, except anonymous data for statistics"
+      url = "#"
+
+    [[params.keypoints.row.list]]
+      icon = "fa-thumbs-up"
+      title = "Quick & Simple"
+      description = "Imagine that you can share you data in minutes, two click away, instead of months like in classical EDI exchange"
+      url = "#"
+
+  # Portfolio section
+  [params.portfolio]
+    enable = true
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Apps"
+    subtitle = "Our Applications for transportation & logistics"
+
+    [params.portfolio.modal]
+      client = "Client"
+      date = "Date"
+      category = "Category"
+      buttonText = "Close App"
+
+
+    # About section
+  [params.about]
+    enable = true
+    title = "About"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    endpoint = "Be part<br>of our<br>story!"
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    [[params.about.events]]
+      img = "1.jpg"
+      date = "2017"
+      title = "Concept"
+      description = "Everything came from here when we saw that it was complicated to exchange data in transports & logistics"
+
+    [[params.about.events]]
+      img = "2.jpg"
+      date = "March 2018"
+      title = "The first App : pallet management - eoPal"
+      description = "Presented on SITL 2018, the first app on eoApps platform for pallet management. First use of blockchain"
+
+    [[params.about.events]]
+      img = "3.jpg"
+      date = "July 2018"
+      title = "2nd App : Order Management"
+      description = "Improvement use of the blockchain. New use case for order management"
+
+    [[params.about.events]]
+      img = "4.jpg"
+      date = "December 2018"
+      title = "Phase Two : Generic data exchange in Transport & logistics"
+      description = "Exchange data in minutes instead of months and still own your data"
+
+
+  # Team section
+  [params.team]
+    enable = true
+    # Possibility to center items
+    #center = true
+    title = "Our amazing team"
+    subtitle = "Experts for best product."
+    description = "IT, Digital and business experts, all together."
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.team.members]]
+      img = "rmelisson_225.jpg"
+      name = "Remi Mélisson"
+      position = "CTO"
+      livesIn = "Paris, France"
+      # For bio markdown and even multiline strings are available.
+      bio = """Remi is an awesome CTO with heaps of experience in the field of Development and Artifical Intelligence."""
+      social = [
+        ["fa-twitter", "https://twitter.com/rmelisson"],
+        ["fa-linkedin", "https://www.linkedin.com/in/r%C3%A9mi-m%C3%A9lisson-91656221/"]
+      ]
+
+    [[params.team.members]]
+      img = "jlaurens_225.jpg"
+      name = "Jérôme Laurens"
+      position = "CEO"
+      livesIn = "Paris, France"
+      bio = """Jerome is a serial entrepreneur. 
+      He has built several companies that built digital application for Industry & loved by their users."""
+      social = [
+        ["fa-twitter", "https://twitter.com/jlaurens"],
+        ["fa-linkedin", "https://www.linkedin.com/in/jlaurens/"]
+      ]
+
+
+
+  # Client section
+    [params.clients_list]
+      enable = false
+      # Possibility to center items
+      #center = true
+      # Optional client title specifying the involvement
+      #title = "Used and trusted by"
+
+      # All the clients' logos are stored under 'static/img/logos'.
+      # Replace them with your clients's logos.
+      # Suggestion: .svg in the size of 280px*80px looks good
+      [[params.clients]]
+        logo = "envato.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "designmodo.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "themeforest.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "creative-market.jpg"
+        link = "#"
+
+  # Contact section
+  [params.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = "Ask for a demo"
+    buttonText = "Send message"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+    # postURL = "https://example.com/mailout/"
+
+    email = "jlaurens@eoapps.io"
+
+    # Success and error message overwrite for async contact form
+    #thanks = "Thank you for awesomely contacting us."
+    #error = "Message could not be send. Please contact us at mail@example.com instead."
+
+    # 'warning' defines error messages for invalid inputs
+    [params.contact.form.name]
+      text = "Your Name *"
+      warning = "Please enter your name."
+
+    [params.contact.form.email]
+      text = "Your Email *"
+      warning = "Please enter your email address."
+
+    [params.contact.form.phone]
+      text = "Your Phone *"
+      warning = "Please enter your phone number."
+
+    [params.contact.form.message]
+      text = "Your Message *"
+      warning = "Please enter a message."
+
+      # Add optional form fields to identify contact forms
+      #[[params.contact.form.hidden]]
+      #  name = "someID"
+      #  value = "example.com"
+      #
+      #[[params.contact.form.hidden]]
+      # Special values for name such as "page" and "site" will be autofilled
+      #  name = "page"
+
+  # Footer section
+  [params.footer]
+    enable = false
+    copyright = "Published under the Apache License 2.0."
+
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      link = "#"
+      title = "Twitter"
+
+    [[params.footer.social]]
+      icon = "fa-facebook"
+      link = "#"
+      title = "Facebook"
+
+    [[params.footer.social]]
+      icon = "fa-linkedin"
+      link = "#"
+      title = "LinkedIn"
+
+    [[params.footer.quicklinks]]
+      text = "Privacy Policy"
+      link = "#"
+
+    [[params.footer.quicklinks]]
+      text = "Terms of Use"
+      link = "#"
