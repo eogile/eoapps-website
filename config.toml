@@ -87,13 +87,13 @@ theme = "agency"
     [[params.keypoints.row.list]]
       icon = "fa-users"
       title = "Decentralized"
-      description = "A platform that belongs to its users, not centralized like Uber or Google. Thanks to #blockchain. <br>We have decentralized Applications dedicated to transportation & logistics"
+      description = "A platform that belongs to its users, not centralized like Uber or Google. Thanks to #blockchain. <br>We developed decentralized Applications dedicated to transportation & logistics"
       url = "#"
 
     [[params.keypoints.row.list]]
       icon = "fa-lock"
       title = "Your data is private"
-      description = "Data privacy is important to us. eoApps platform never has access to YOUR data, except anonymous data for statistics"
+      description = "Data privacy is important to us. eoApps platform never has access to YOUR data."
       url = "#"
 
     [[params.keypoints.row.list]]
@@ -123,7 +123,7 @@ theme = "agency"
   [params.about]
     enable = true
     title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "Our timeline."
     endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
@@ -184,7 +184,7 @@ theme = "agency"
       position = "CEO"
       livesIn = "Paris, France"
       bio = """Jerome is a serial entrepreneur. 
-      He has built several companies that built digital application for Industry & loved by their users."""
+      He has built several companies that developed digital application for Industry & loved by their users."""
       social = [
         ["fa-twitter", "https://twitter.com/jlaurens"],
         ["fa-linkedin", "https://www.linkedin.com/in/jlaurens/"]
