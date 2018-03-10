@@ -1,4 +1,4 @@
-baseURL = "https://eoapps.netlify.com/"
+baseURL = "https://www.eoapps.io/"
 languageCode = "en-us"
 title = "eoApps"
 theme = "agency"
