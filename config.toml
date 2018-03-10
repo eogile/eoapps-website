@@ -13,8 +13,8 @@ theme = "agency"
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
-  description = "Your description"
+  name = "eoApps"
+  description = "Decentralized platform for transports and logistics"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -29,6 +29,11 @@ theme = "agency"
   [params.error404]
     heading = "Page couldn't be found"
     text = "Please visit [this page](/)"
+
+  # coming soon customization
+  [params.comingsoon]
+    heading = "Live in a few days !"
+    text = "[Be informed when it's live](/#contact)"
 
   # Optional piwik tracking
   #[params.analytics.piwik]
@@ -62,9 +67,10 @@ theme = "agency"
 
     # postpended links
     [[menu.postpend]]
-      url = "https://eopal.eoapps.io"
+      url = "/comingsoon"
       name = "Sign in"
       weight = 10
+#      url = "https://eopal.eoapps.io"
 
 
   # Hero section
@@ -223,7 +229,7 @@ theme = "agency"
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Ask for a demo"
+    subtitle  = "Ask us anything"
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
