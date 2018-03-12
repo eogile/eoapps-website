@@ -15,5 +15,3 @@ Citation du jour :
 ls -la
 top
 ```
-
-![null](/img/uploads/header-bg.jpg)
