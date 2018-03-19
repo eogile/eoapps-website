@@ -69,10 +69,10 @@ googleAnalytics = "UA-115457762-1"
 
     # postpended links
     [[menu.postpend]]
-      url = "/comingsoon"
+      #url = "/comingsoon"
       name = "Sign in"
       weight = 10
-#      url = "https://eopal.eoapps.io"
+      url = "https://eopal.eoapps.io"
 
 
   # Hero section
